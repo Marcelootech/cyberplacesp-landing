@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberPlace - Sites e Posicionamento Digital em Tatuí e Região</title>
+  <meta name="description" content="Criação de landing pages rápidas, sites institucionais e posicionamento no Google para empresas, comércios e profissionais de Tatuí, SP e região." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+          },
+          colors: {
+            navy: {
+              DEFAULT: '#0A2540',
+              light: '#133557',
+              dark: '#06182B',
+            },
+            cyanbrand: {
+              DEFAULT: '#00D4FF',
+              hover: '#00B8DF',
+              soft: '#E6FAFF',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-[#0A2540] font-sans antialiased selection:bg-[#00D4FF]/30 selection:text-[#0A2540]">
+
+  <!-- Cabeçalho Fixo -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      <!-- Logotipo SVG CyberPlace -->
+      <a href="#inicio" class="flex items-center gap-3 group focus:outline-none">
+        <svg class="w-10 h-10 shrink-0 transition-transform duration-200 group-hover:scale-105" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="4" y="7" width="34" height="26" rx="5" fill="#FFFFFF" stroke="#0A2540" stroke-width="3"/>
+          <line x1="4" y1="15" x2="38" y2="15" stroke="#0A2540" stroke-width="2.5"/>
+          <circle cx="9.5" cy="11" r="1.5" fill="#00D4FF"/>
+          <circle cx="14.5" cy="11" r="1.5" fill="#0A2540"/>
+          <circle cx="19.5" cy="11" r="1.5" fill="#94A3B8"/>
+          <path d="M25 21L42 28.5L34.5 31.8L38.5 39.5L34.5 41.5L30.5 33.8L25 39V21Z" fill="#00D4FF" stroke="#0A2540" stroke-width="2.5" stroke-linejoin="round"/>
+        </svg>
+        <div class="flex flex-col leading-none">
+          <span class="text-xl font-extrabold tracking-tight text-[#0A2540]">CyberPlace</span>
+          <span class="text-[11px] font-semibold tracking-wider uppercase text-slate-500 mt-0.5">Sites e Posicionamento Digital</span>
+        </div>
+      </a>
+
+      <!-- Navegação Desktop -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-600">
+        <a href="#solucoes" class="hover:text-[#0A2540] transition-colors">Serviços</a>
+        <a href="#portfolio" class="hover:text-[#0A2540] transition-colors">Portfólio</a>
+        <a href="#como-funciona" class="hover:text-[#0A2540] transition-colors">Como Funciona</a>
+        <a href="#duvidas" class="hover:text-[#0A2540] transition-colors">Dúvidas</a>
+      </nav>
+
+      <!-- CTA WhatsApp Cabeçalho -->
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/5515988118435?text=Ol%C3%A1!%20Vi%20o%20site%20da%20CyberPlace%20e%20quero%20saber%20mais%20sobre%20sites%20e%20landing%20pages."
+           target="_blank"
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 bg-[#0A2540] hover:bg-[#133557] text-white text-sm font-semibold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl shadow-sm transition-all">
+          <svg class="w-4 h-4 text-[#00D4FF] shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.758.459 3.475 1.331 4.988L2 22l5.188-1.359a9.93 9.93 0 004.843 1.258h.004c5.515 0 9.968-4.453 9.968-9.969 0-2.663-1.037-5.167-2.92-7.05A9.903 9.903 0 0012.031 2zm5.803 14.28c-.244.688-1.417 1.315-1.964 1.397-.502.075-1.137.107-1.835-.115-.423-.134-.966-.314-1.662-.614-2.926-1.263-4.837-4.209-4.983-4.404-.146-.195-1.19-1.584-1.19-3.022 0-1.438.753-2.145 1.02-2.437.268-.293.584-.366.779-.366.195 0 .39.002.56.01.18.009.421-.068.659.503.244.585.829 2.023.902 2.169.073.146.122.317.024.512-.097.195-.146.317-.292.488-.146.17-.307.38-.439.512-.146.146-.299.305-.128.598.17.292.757 1.249 1.625 2.023 1.117.996 2.059 1.305 2.351 1.451.292.146.463.122.634-.073.17-.195.731-.853.926-1.146.195-.292.39-.244.658-.146.268.097 1.706.805 1.998.951.292.146.487.219.56.341.073.122.073.707-.171 1.395z"/>
+          </svg>
+          <span>Falar no WhatsApp</span>
+        </a>
+        <!-- Botão Menu Mobile -->
+        <button id="mobile-menu-btn" type="button" aria-label="Abrir menu" class="md:hidden p-2.5 rounded-xl border border-slate-200 text-[#0A2540] hover:bg-slate-50">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menu Mobile -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-200 px-4 py-4 space-y-2">
+      <a href="#solucoes" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50">Serviços</a>
+      <a href="#portfolio" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50">Portfólio</a>
+      <a href="#como-funciona" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50">Como Funciona</a>
+      <a href="#duvidas" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50">Dúvidas</a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- 2. Hero Section -->
+    <section class="relative overflow-hidden bg-white pt-12 pb-16 sm:pt-20 sm:pb-24 border-b border-slate-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-7 space-y-6">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#F8FAFC] border border-slate-200 text-xs font-semibold text-[#0A2540]">
+              <span class="w-2 h-2 rounded-full bg-[#00D4FF]"></span>
+              Atendimento em Tatuí, SP e região
+            </div>
+
+            <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-[#0A2540] leading-[1.12]">
+              Transforme buscas no Google e cliques em <span class="underline decoration-[#00D4FF] decoration-4 underline-offset-4">clientes reais no WhatsApp</span>.
+            </h1>
+
+            <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
+              Criamos landing pages rápidas, sites profissionais e integração com o Perfil da Empresa no Google para comércios, empresas e profissionais autônomos de Tatuí e região venderem todos os dias.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 pt-2">
+              <a href="https://wa.me/5515988118435?text=Ol%C3%A1!%20Vi%20o%20site%20da%20CyberPlace%20e%20quero%20um%20or%C3%A7amento%20para%20site%20ou%20landing%20page."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="inline-flex items-center justify-center gap-2.5 bg-[#00D4FF] hover:bg-[#00B8DF] text-[#0A2540] font-bold text-base px-6 py-4 rounded-xl shadow-md shadow-[#00D4FF]/20 transition-all">
+                <svg class="w-5 h-5 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.758.459 3.475 1.331 4.988L2 22l5.188-1.359a9.93 9.93 0 004.843 1.258h.004c5.515 0 9.968-4.453 9.968-9.969 0-2.663-1.037-5.167-2.92-7.05A9.903 9.903 0 0012.031 2zm5.803 14.28c-.244.688-1.417 1.315-1.964 1.397-.502.075-1.137.107-1.835-.115-.423-.134-.966-.314-1.662-.614-2.926-1.263-4.837-4.209-4.983-4.404-.146-.195-1.19-1.584-1.19-3.022 0-1.438.753-2.145 1.02-2.437.268-.293.584-.366.779-.366.195 0 .39.002.56.01.18.009.421-.068.659.503.244.585.829 2.023.902 2.169.073.146.122.317.024.512-.097.195-.146.317-.292.488-.146.17-.307.38-.439.512-.146.146-.299.305-.128.598.17.292.757 1.249 1.625 2.023 1.117.996 2.059 1.305 2.351 1.451.292.146.463.122.634-.073.17-.195.731-.853.926-1.146.195-.292.39-.244.658-.146.268.097 1.706.805 1.998.951.292.146.487.219.56.341.073.122.073.707-.171 1.395z"/>
+                </svg>
+                <span>Solicitar proposta no WhatsApp</span>
+              </a>
+
+              <a href="#portfolio"
+                 class="inline-flex items-center justify-center gap-2 bg-white hover:bg-[#F8FAFC] text-[#0A2540] border border-slate-300 font-semibold text-base px-6 py-4 rounded-xl transition-colors">
+                <span>Ver exemplos de páginas</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="pt-3 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs sm:text-sm text-slate-500 font-medium">
+              <span class="inline-flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-[#0A2540]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                Carregamento rápido no celular
+              </span>
+              <span class="inline-flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-[#0A2540]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                Integrado ao Google Meu Negócio
+              </span>
+              <span class="inline-flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-[#0A2540]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                Foco direto em conversão
+              </span>
+            </div>
+          </div>
+
+          <!-- Ilustração Estrutural Limpa de Conversão Local -->
+          <div class="lg:col-span-5">
+            <div class="bg-[#F8FAFC] border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm">
+              <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-xs space-y-4">
+                <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+                  <div class="flex items-center gap-1.5">
+                    <span class="w-2.5 h-2.5 rounded-full bg-[#00D4FF]"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-[#0A2540]"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-slate-300"></span>
+                  </div>
+                  <span class="text-[11px] font-medium text-slate-400 bg-slate-50 px-2.5 py-1 rounded-md border border-slate-100">
+                    suaempresa.com.br
+                  </span>
+                </div>
+
+                <div class="space-y-2.5">
+                  <div class="inline-block px-2.5 py-1 rounded-md bg-[#00D4FF]/15 text-[#0A2540] text-[11px] font-bold">
+                    Encontrado no Google em Tatuí
+                  </div>
+                  <h2 class="text-lg font-bold text-[#0A2540] leading-snug">
+                    Sua vitrine digital aberta 24 horas por dia
+                  </h2>
+                  <p class="text-xs text-slate-500 leading-relaxed">
+                    Quando o cliente pesquisa pelo seu serviço, ele encontra uma página clara, confiável e com botão direto para fechar com você.
+                  </p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-2.5 pt-1">
+                  <div class="p-3 rounded-lg bg-[#F8FAFC] border border-slate-200/80">
+                    <div class="text-xs font-bold text-[#0A2540]">Google Local</div>
+                    <div class="text-[11px] text-slate-500 mt-0.5">Perfil conectado ao site oficial</div>
+                  </div>
+                  <div class="p-3 rounded-lg bg-[#F8FAFC] border border-slate-200/80">
+                    <div class="text-xs font-bold text-[#0A2540]">WhatsApp Direto</div>
+                    <div class="text-[11px] text-slate-500 mt-0.5">Lead chega pronto para orçamento</div>
+                  </div>
+                </div>
+
+                <div class="pt-1">
+                  <div class="w-full py-2.5 px-4 rounded-lg bg-[#0A2540] text-white text-xs font-semibold text-center flex items-center justify-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-[#00D4FF]"></span>
+                    <span>Página otimizada para celular e desktop</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Seção de Problemas e Solução -->
+    <section class="py-16 sm:py-24 bg-[#F8FAFC] border-b border-slate-200/70">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center mb-12 sm:mb-16">
+          <span class="text-xs font-bold uppercase tracking-wider text-[#0A2540] bg-[#00D4FF]/20 px-3 py-1 rounded-full">
+            Por que ter estrutura própria
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-[#0A2540] mt-4">
+            Depender só de rede social faz você perder vendas todos os dias
+          </h2>
+          <p class="text-slate-600 mt-3 text-base">
+            Veja a diferença prática entre improvisar com links soltos e ter um posicionamento profissional no Google.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 lg:gap-8">
+          <!-- Coluna Problema -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
+            <div class="flex items-center gap-3 mb-6">
+              <div class="w-10 h-10 rounded-xl bg-slate-100 text-slate-600 flex items-center justify-center font-bold">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-bold text-[#0A2540]">Sem site ou só com rede social</h3>
+                <p class="text-xs text-slate-500">O cenário comum de quem perde espaço para a concorrência</p>
+              </div>
+            </div>
+
+            <ul class="space-y-4 text-sm text-slate-600">
+              <li class="flex items-start gap-3">
+                <span class="mt-0.5 text-slate-400 font-bold">✕</span>
+                <span>Quem pesquisa seu serviço no Google não encontra uma página oficial e clica no concorrente.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-0.5 text-slate-400 font-bold">✕</span>
+                <span>Informações espalhadas em posts antigos obrigam você a explicar tudo do zero a cada mensagem.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-0.5 text-slate-400 font-bold">✕</span>
+                <span>Anúncios pagos direcionados para perfil social distraem o cliente e derrubam a taxa de contato.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-0.5 text-slate-400 font-bold">✕</span>
+                <span>Perfil do Google Meu Negócio incompleto, sem site vinculado e com pouca relevância local.</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Coluna Solução CyberPlace -->
+          <div class="bg-[#0A2540] text-white rounded-2xl p-6 sm:p-8 shadow-lg">
+            <div class="flex items-center gap-3 mb-6">
+              <div class="w-10 h-10 rounded-xl bg-[#00D4FF] text-[#0A2540] flex items-center justify-center font-bold">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-bold text-white">Com a estrutura da CyberPlace</h3>
+                <p class="text-xs text-slate-300">Presença profissional focada em gerar contatos qualificados</p>
+              </div>
+            </div>
+
+            <ul class="space-y-4 text-sm text-slate-200">
+              <li class="flex items-start gap-3">
+                <span class="mt-0.5 text-[#00D4FF] font-bold">✓</span>
+                <span>Página rápida, clara e feita para abrir perfeitamente no celular em poucos segundos.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-0.5 text-[#00D4FF] font-bold">✓</span>
+                <span>Apresentação objetiva dos seus serviços, diferenciais e provas que geram confiança imediata.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-0.5 text-[#00D4FF] font-bold">✓</span>
+                <span>Botões estratégicos para WhatsApp com mensagem pronta para acelerar o fechamento.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-0.5 text-[#00D4FF] font-bold">✓</span>
+                <span>Conexão direta com o Google Meu Negócio para fortalecer sua presença em Tatuí e região.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Seção de Soluções / Pacotes -->
+    <section id="solucoes" class="py-16 sm:py-24 bg-white border-b border-slate-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center mb-12 sm:mb-16">
+          <span class="text-xs font-bold uppercase tracking-wider text-[#0A2540] bg-[#00D4FF]/20 px-3 py-1 rounded-full">
+            Soluções sob medida
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-[#0A2540] mt-4">
+            Escolha o formato ideal para o momento do seu negócio
+          </h2>
+          <p class="text-slate-600 mt-3 text-base">
+            Projetos objetivos, sem mensalidade abusiva e entregues prontos para você divulgar e receber contatos.
+          </p>
+        </div>
+
+        <div class="grid lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
+          <!-- Card 1 -->
+          <div class="flex flex-col justify-between bg-[#F8FAFC] border border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-[#0A2540]/40 transition-colors">
+            <div>
+              <div class="inline-flex items-center px-3 py-1 rounded-lg bg-white border border-slate-200 text-xs font-bold text-[#0A2540] mb-4">
+                Foco em conversão rápida
+              </div>
+              <h3 class="text-xl font-extrabold text-[#0A2540]">Landing Page de Alta Conversão</h3>
+              <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                Ideal para campanhas, serviços específicos, promoções e captação rápida de clientes direto no WhatsApp.
+              </p>
+
+              <ul class="mt-6 space-y-3 text-sm text-slate-700">
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#0A2540] font-bold">•</span>
+                  <span>Página única estruturada para convencer e levar ao clique</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#0A2540] font-bold">•</span>
+                  <span>Layout 100% responsivo para celular, tablet e computador</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#0A2540] font-bold">•</span>
+                  <span>Botões de WhatsApp com mensagem personalizada</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#0A2540] font-bold">•</span>
+                  <span>Publicação rápida com certificado de segurança HTTPS</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-slate-200">
+              <a href="https://wa.me/5515988118435?text=Ol%C3%A1!%20Tenho%20interesse%20em%20uma%20Landing%20Page%20de%20Alta%20Convers%C3%A3o%20com%20a%20CyberPlace."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full inline-flex items-center justify-center gap-2 bg-[#0A2540] hover:bg-[#133557] text-white font-semibold text-sm px-5 py-3.5 rounded-xl transition-colors">
+                <span>Solicitar orçamento no WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2 (Destaque) -->
+          <div class="flex flex-col justify-between bg-white border-2 border-[#0A2540] rounded-2xl p-6 sm:p-8 shadow-md relative">
+            <div>
+              <div class="inline-flex items-center px-3 py-1 rounded-lg bg-[#00D4FF] text-xs font-extrabold text-[#0A2540] mb-4">
+                Mais procurado
+              </div>
+              <h3 class="text-xl font-extrabold text-[#0A2540]">Site Institucional Profissional</h3>
+              <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                Ideal para empresas, clínicas, escritórios e prestadores de serviço apresentarem estrutura, portfólio e credibilidade.
+              </p>
+
+              <ul class="mt-6 space-y-3 text-sm text-slate-700">
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#00B8DF] font-bold">•</span>
+                  <span>Apresentação completa da empresa, serviços e diferenciais</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#00B8DF] font-bold">•</span>
+                  <span>Seção de provas sociais, perguntas frequentes e localização</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#00B8DF] font-bold">•</span>
+                  <span>Estrutura otimizada para buscas locais no Google (SEO básico)</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#00B8DF] font-bold">•</span>
+                  <span>Configuração no seu domínio próprio e conexão com WhatsApp</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-slate-100">
+              <a href="https://wa.me/5515988118435?text=Ol%C3%A1!%20Quero%20solicitar%20um%20or%C3%A7amento%20para%20Site%20Institucional%20Profissional%20com%20a%20CyberPlace."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full inline-flex items-center justify-center gap-2 bg-[#00D4FF] hover:bg-[#00B8DF] text-[#0A2540] font-bold text-sm px-5 py-3.5 rounded-xl transition-colors">
+                <span>Solicitar orçamento no WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="flex flex-col justify-between bg-[#F8FAFC] border border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-[#0A2540]/40 transition-colors">
+            <div>
+              <div class="inline-flex items-center px-3 py-1 rounded-lg bg-white border border-slate-200 text-xs font-bold text-[#0A2540] mb-4">
+                Visibilidade local
+              </div>
+              <h3 class="text-xl font-extrabold text-[#0A2540]">Posicionamento Digital e Google</h3>
+              <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                Otimização e integração entre o seu site e o Perfil da Empresa no Google para aparecer melhor nas buscas locais.
+              </p>
+
+              <ul class="mt-6 space-y-3 text-sm text-slate-700">
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#0A2540] font-bold">•</span>
+                  <span>Organização de categorias, serviços e descrição estratégica</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#0A2540] font-bold">•</span>
+                  <span>Alinhamento de nome, telefone, endereço e link do site</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#0A2540] font-bold">•</span>
+                  <span>Orientação prática para captar avaliações e manter o perfil ativo</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-[#0A2540] font-bold">•</span>
+                  <span>Ideal para negócios locais de Tatuí e cidades vizinhas</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-slate-200">
+              <a href="https://wa.me/5515988118435?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20Posicionamento%20Digital%20e%20integra%C3%A7%C3%A3o%20com%20o%20Google%20Meu%20Neg%C3%B3cio."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full inline-flex items-center justify-center gap-2 bg-[#0A2540] hover:bg-[#133557] text-white font-semibold text-sm px-5 py-3.5 rounded-xl transition-colors">
+                <span>Solicitar orçamento no WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Seção de Portfólio / Modelos Práticos -->
+    <section id="portfolio" class="py-16 sm:py-24 bg-[#F8FAFC] border-b border-slate-200/70">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center mb-12 sm:mb-16">
+          <span class="text-xs font-bold uppercase tracking-wider text-[#0A2540] bg-[#00D4FF]/20 px-3 py-1 rounded-full">
+            Exemplos e modelos práticos
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-[#0A2540] mt-4">
+            Projetos e estruturas prontas para inspirar o seu site
+          </h2>
+          <p class="text-slate-600 mt-3 text-base">
+            Veja como organizamos cada página para facilitar a leitura no celular e transformar visitas em mensagens.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6 lg:gap-8">
+          <!-- Projeto 1: BuscaHelp -->
+          <article class="bg-white border border-slate-200 rounded-2xl overflow-hidden flex flex-col justify-between shadow-xs hover:shadow-md transition-shadow">
+            <div>
+              <!-- Preview Visual Limpo -->
+              <div class="bg-[#0A2540] p-5 border-b border-slate-200">
+                <div class="bg-white rounded-xl p-4 space-y-2.5">
+                  <div class="flex items-center justify-between">
+                    <span class="text-xs font-extrabold text-[#0A2540]">BuscaHelp</span>
+                    <span class="text-[10px] font-semibold bg-[#00D4FF]/20 text-[#0A2540] px-2 py-0.5 rounded">Tatuí, SP</span>
+                  </div>
+                  <div class="text-xs font-bold text-slate-800">Guia Local de Serviços em Tatuí</div>
+                  <div class="grid grid-cols-2 gap-1.5 pt-1">
+                    <div class="h-6 rounded bg-slate-100 flex items-center px-2 text-[10px] text-slate-500">Profissionais</div>
+                    <div class="h-6 rounded bg-[#00D4FF] flex items-center justify-center text-[10px] font-bold text-[#0A2540]">Buscar agora</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-6">
+                <span class="text-xs font-bold text-[#00B8DF] uppercase tracking-wide">Plataforma e Diretório Local</span>
+                <h3 class="text-lg font-extrabold text-[#0A2540] mt-1">BuscaHelp - Guia Local de Serviços em Tatuí</h3>
+                <p class="text-sm text-slate-600 mt-2.5 leading-relaxed">
+                  Estrutura focada em conectar moradores de Tatuí a prestadores de serviço e comércios locais com navegação simples e contato direto.
+                </p>
+              </div>
+            </div>
+
+            <div class="px-6 pb-6 pt-2 flex flex-col gap-2.5">
+              <button type="button"
+                      data-preview-title="BuscaHelp - Guia Local de Serviços em Tatuí"
+                      data-preview-desc="Projeto voltado para busca rápida de prestadores de serviço em Tatuí, com categorias claras, carregamento leve no celular e contato imediato pelo WhatsApp."
+                      data-preview-highlights="Busca organizada por categoria|Contato direto sem intermediários|Estrutura preparada para SEO local em Tatuí"
+                      data-preview-wa="https://wa.me/5515988118435?text=Ol%C3%A1!%20Vi%20o%20projeto%20BuscaHelp%20no%20portf%C3%B3lio%20da%20CyberPlace%20e%20quero%20uma%20p%C3%A1gina%20nesse%20estilo."
+                      class="preview-trigger w-full py-2.5 px-4 rounded-xl border border-slate-300 hover:bg-slate-50 text-[#0A2540] text-xs font-bold transition-colors">
+                Ver detalhes da estrutura
+              </button>
+              <a href="https://wa.me/5515988118435?text=Ol%C3%A1!%20Vi%20o%20projeto%20BuscaHelp%20no%20portf%C3%B3lio%20da%20CyberPlace%20e%20quero%20uma%20p%C3%A1gina%20nesse%20estilo."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full py-2.5 px-4 rounded-xl bg-[#0A2540] hover:bg-[#133557] text-white text-xs font-semibold text-center transition-colors">
+                Quero uma página nesse estilo
+              </a>
+            </div>
+          </article>
+
+          <!-- Projeto 2: Modelo Clínica & Saúde -->
+          <article class="bg-white border border-slate-200 rounded-2xl overflow-hidden flex flex-col justify-between shadow-xs hover:shadow-md transition-shadow">
+            <div>
+              <!-- Preview Visual Limpo -->
+              <div class="bg-[#133557] p-5 border-b border-slate-200">
+                <div class="bg-white rounded-xl p-4 space-y-2.5">
+                  <div class="flex items-center justify-between">
+                    <span class="text-xs font-extrabold text-[#0A2540]">Clínica & Saúde</span>
+                    <span class="text-[10px] font-semibold bg-slate-100 text-slate-600 px-2 py-0.5 rounded">Agendamento</span>
+                  </div>
+                  <div class="text-xs font-bold text-slate-800">Atendimento humanizado e ágil</div>
+                  <div class="grid grid-cols-2 gap-1.5 pt-1">
+                    <div class="h-6 rounded bg-slate-100 flex items-center px-2 text-[10px] text-slate-500">Especialidades</div>
+                    <div class="h-6 rounded bg-[#0A2540] flex items-center justify-center text-[10px] font-bold text-white">Agendar consulta</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-6">
+                <span class="text-xs font-bold text-[#00B8DF] uppercase tracking-wide">Modelo Institucional e Agendamento</span>
+                <h3 class="text-lg font-extrabold text-[#0A2540] mt-1">Modelo Clínica & Saúde</h3>
+                <p class="text-sm text-slate-600 mt-2.5 leading-relaxed">
+                  Página ideal para consultórios, dentistas, psicólogos, fisioterapeutas e clínicas apresentarem especialidades, convênios e agendamento no WhatsApp.
+                </p>
+              </div>
+            </div>
+
+            <div class="px-6 pb-6 pt-2 flex flex-col gap-2.5">
+              <button type="button"
+                      data-preview-title="Modelo Clínica & Saúde"
+                      data-preview-desc="Layout limpo que transmite confiança e profissionalismo para pacientes que pesquisam profissionais de saúde no Google."
+                      data-preview-highlights="Apresentação clara de especialidades e equipe|Mapa de localização e horário de atendimento|Botão rápido de agendamento via WhatsApp"
+                      data-preview-wa="https://wa.me/5515988118435?text=Ol%C3%A1!%20Gostei%20do%20Modelo%20Cl%C3%ADnica%20%26%20Sa%C3%BAde%20da%20CyberPlace%20e%20quero%20um%20or%C3%A7amento."
+                      class="preview-trigger w-full py-2.5 px-4 rounded-xl border border-slate-300 hover:bg-slate-50 text-[#0A2540] text-xs font-bold transition-colors">
+                Ver detalhes da estrutura
+              </button>
+              <a href="https://wa.me/5515988118435?text=Ol%C3%A1!%20Gostei%20do%20Modelo%20Cl%C3%ADnica%20%26%20Sa%C3%BAde%20da%20CyberPlace%20e%20quero%20um%20or%C3%A7amento."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full py-2.5 px-4 rounded-xl bg-[#0A2540] hover:bg-[#133557] text-white text-xs font-semibold text-center transition-colors">
+                Quero uma página nesse estilo
+              </a>
+            </div>
+          </article>
+
+          <!-- Projeto 3: Modelo Serviços Locais & Comércio -->
+          <article class="bg-white border border-slate-200 rounded-2xl overflow-hidden flex flex-col justify-between shadow-xs hover:shadow-md transition-shadow">
+            <div>
+              <!-- Preview Visual Limpo -->
+              <div class="bg-[#0A2540] p-5 border-b border-slate-200">
+                <div class="bg-white rounded-xl p-4 space-y-2.5">
+                  <div class="flex items-center justify-between">
+                    <span class="text-xs font-extrabold text-[#0A2540]">Serviços & Comércio</span>
+                    <span class="text-[10px] font-semibold bg-[#00D4FF]/20 text-[#0A2540] px-2 py-0.5 rounded">Orçamento</span>
+                  </div>
+                  <div class="text-xs font-bold text-slate-800">Solução rápida na sua região</div>
+                  <div class="grid grid-cols-2 gap-1.5 pt-1">
+                    <div class="h-6 rounded bg-slate-100 flex items-center px-2 text-[10px] text-slate-500">Serviços</div>
+                    <div class="h-6 rounded bg-[#00D4FF] flex items-center justify-center text-[10px] font-bold text-[#0A2540]">Pedir orçamento</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-6">
+                <span class="text-xs font-bold text-[#00B8DF] uppercase tracking-wide">Modelo Conversão Direta</span>
+                <h3 class="text-lg font-extrabold text-[#0A2540] mt-1">Modelo Serviços Locais & Comércio</h3>
+                <p class="text-sm text-slate-600 mt-2.5 leading-relaxed">
+                  Perfeito para oficinas, estética automotiva, reformas, advocacia, contabilidade e comércios que precisam converter buscas urgentes em pedidos.
+                </p>
+              </div>
+            </div>
+
+            <div class="px-6 pb-6 pt-2 flex flex-col gap-2.5">
+              <button type="button"
+                      data-preview-title="Modelo Serviços Locais & Comércio"
+                      data-preview-desc="Página objetiva feita para quem busca um serviço no Google e quer resolver rápido pelo WhatsApp sem perder tempo."
+                      data-preview-highlights="Lista direta dos principais serviços atendidos|Diferenciais locais e área de atendimento|Chamada forte para orçamento imediato"
+                      data-preview-wa="https://wa.me/5515988118435?text=Ol%C3%A1!%20Gostei%20do%20Modelo%20Servi%C3%A7os%20Locais%20%26%20Com%C3%A9rcio%20da%20CyberPlace%20e%20quero%20um%20or%C3%A7amento."
+                      class="preview-trigger w-full py-2.5 px-4 rounded-xl border border-slate-300 hover:bg-slate-50 text-[#0A2540] text-xs font-bold transition-colors">
+                Ver detalhes da estrutura
+              </button>
+              <a href="https://wa.me/5515988118435?text=Ol%C3%A1!%20Gostei%20do%20Modelo%20Servi%C3%A7os%20Locais%20%26%20Com%C3%A9rcio%20da%20CyberPlace%20e%20quero%20um%20or%C3%A7amento."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full py-2.5 px-4 rounded-xl bg-[#0A2540] hover:bg-[#133557] text-white text-xs font-semibold text-center transition-colors">
+                Quero uma página nesse estilo
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Seção Como Funciona -->
+    <section id="como-funciona" class="py-16 sm:py-24 bg-white border-b border-slate-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center mb-12 sm:mb-16">
+          <span class="text-xs font-bold uppercase tracking-wider text-[#0A2540] bg-[#00D4FF]/20 px-3 py-1 rounded-full">
+            Processo simples e sem enrolação
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-[#0A2540] mt-4">
+            Como colocamos o seu site no ar em 4 passos
+          </h2>
+          <p class="text-slate-600 mt-3 text-base">
+            Você não precisa entender de programação ou termos técnicos. Cuidamos da estrutura para você focar no seu atendimento.
+          </p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Passo 1 -->
+          <div class="bg-[#F8FAFC] border border-slate-200 rounded-2xl p-6">
+            <div class="w-10 h-10 rounded-xl bg-[#0A2540] text-[#00D4FF] font-extrabold text-base flex items-center justify-center mb-4">
+              1
+            </div>
+            <h3 class="text-base font-extrabold text-[#0A2540]">Briefing rápido no WhatsApp</h3>
+            <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+              Entendemos o seu negócio, seus principais serviços, público e objetivos em uma conversa objetiva.
+            </p>
+          </div>
+
+          <!-- Passo 2 -->
+          <div class="bg-[#F8FAFC] border border-slate-200 rounded-2xl p-6">
+            <div class="w-10 h-10 rounded-xl bg-[#0A2540] text-[#00D4FF] font-extrabold text-base flex items-center justify-center mb-4">
+              2
+            </div>
+            <h3 class="text-base font-extrabold text-[#0A2540]">Estrutura e design</h3>
+            <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+              Montamos o visual limpo, os textos persuasivos e os botões estratégicos focados em gerar contatos.
+            </p>
+          </div>
+
+          <!-- Passo 3 -->
+          <div class="bg-[#F8FAFC] border border-slate-200 rounded-2xl p-6">
+            <div class="w-10 h-10 rounded-xl bg-[#0A2540] text-[#00D4FF] font-extrabold text-base flex items-center justify-center mb-4">
+              3
+            </div>
+            <h3 class="text-base font-extrabold text-[#0A2540]">Revisão e ajustes</h3>
+            <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+              Você visualiza a página funcionando no celular e no computador e solicita os ajustes finais antes de publicar.
+            </p>
+          </div>
+
+          <!-- Passo 4 -->
+          <div class="bg-[#F8FAFC] border border-slate-200 rounded-2xl p-6">
+            <div class="w-10 h-10 rounded-xl bg-[#00D4FF] text-[#0A2540] font-extrabold text-base flex items-center justify-center mb-4">
+              4
+            </div>
+            <h3 class="text-base font-extrabold text-[#0A2540]">Publicação e conexão com o Google</h3>
+            <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+              Colocamos a página no ar com segurança e conectamos ao seu Perfil da Empresa no Google.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Seção FAQ (Acordeão Interativo em JS Puro) -->
+    <section id="duvidas" class="py-16 sm:py-24 bg-[#F8FAFC] border-b border-slate-200/70">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <span class="text-xs font-bold uppercase tracking-wider text-[#0A2540] bg-[#00D4FF]/20 px-3 py-1 rounded-full">
+            Perguntas frequentes
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-[#0A2540] mt-4">
+            Dúvidas comuns antes de começar
+          </h2>
+        </div>
+
+        <div class="space-y-3.5" id="faq-accordion">
+          <!-- FAQ 1 -->
+          <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden">
+            <button type="button" class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-bold text-[#0A2540] text-sm sm:text-base focus:outline-none" aria-expanded="true">
+              <span>Preciso já ter domínio e hospedagem?</span>
+              <svg class="faq-icon w-5 h-5 text-[#0A2540] shrink-0 transition-transform duration-200 rotate-180" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-content px-6 pb-5 text-sm text-slate-600 leading-relaxed">
+              Não precisa ter nada pronto para começar. Podemos publicar sua página imediatamente em um endereço gratuito de alta velocidade e, se você quiser registrar o seu domínio próprio (.com.br ou .com), orientamos e configuramos tudo para você.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden">
+            <button type="button" class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-bold text-[#0A2540] text-sm sm:text-base focus:outline-none" aria-expanded="false">
+              <span>Em quanto tempo a página fica pronta?</span>
+              <svg class="faq-icon w-5 h-5 text-[#0A2540] shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed">
+              O prazo varia conforme o modelo escolhido e o envio das informações básicas do seu negócio, mas landing pages enxutas costumam ficar prontas em poucos dias úteis após o alinhamento inicial no WhatsApp.
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden">
+            <button type="button" class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-bold text-[#0A2540] text-sm sm:text-base focus:outline-none" aria-expanded="false">
+              <span>O site funciona bem no celular?</span>
+              <svg class="faq-icon w-5 h-5 text-[#0A2540] shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed">
+              Sim. Como a maior parte das pesquisas locais no Google acontece pelo smartphone, todas as páginas são desenvolvidas com foco total em leitura confortável, carregamento leve e botões fáceis de tocar no celular.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden">
+            <button type="button" class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-bold text-[#0A2540] text-sm sm:text-base focus:outline-none" aria-expanded="false">
+              <span>Vocês também ajudam a conectar com o Google Meu Negócio?</span>
+              <svg class="faq-icon w-5 h-5 text-[#0A2540] shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed">
+              Com certeza. Vincular o site oficial ao seu Perfil da Empresa no Google e alinhar categorias, serviços e informações locais faz parte da nossa estratégia para fortalecer sua presença em Tatuí e região.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Chamada Final (CTA) -->
+    <section class="py-16 sm:py-24 bg-white">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-[#0A2540] rounded-3xl p-8 sm:p-14 text-center text-white shadow-xl">
+          <span class="inline-block px-3.5 py-1 rounded-full bg-[#00D4FF]/20 text-[#00D4FF] text-xs font-bold uppercase tracking-wider mb-4">
+            Comece agora
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold max-w-2xl mx-auto leading-tight">
+            Pronto para colocar sua empresa em destaque no Google e vender mais pelo WhatsApp?
+          </h2>
+          <p class="text-slate-300 text-base sm:text-lg max-w-xl mx-auto mt-4 leading-relaxed">
+            Chame no WhatsApp agora mesmo, conte o que você precisa e receba uma orientação direta para o seu projeto.
+          </p>
+
+          <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="https://wa.me/5515988118435?text=Ol%C3%A1!%20Vi%20o%20site%20da%20CyberPlace%20e%20quero%20come%C3%A7ar%20meu%20projeto%20de%20site%20ou%20landing%20page."
+               target="_blank"
+               rel="noopener noreferrer"
+               class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#00D4FF] hover:bg-[#00B8DF] text-[#0A2540] font-extrabold text-base px-8 py-4 rounded-xl shadow-lg transition-all">
+              <svg class="w-5 h-5 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.758.459 3.475 1.331 4.988L2 22l5.188-1.359a9.93 9.93 0 004.843 1.258h.004c5.515 0 9.968-4.453 9.968-9.969 0-2.663-1.037-5.167-2.92-7.05A9.903 9.903 0 0012.031 2zm5.803 14.28c-.244.688-1.417 1.315-1.964 1.397-.502.075-1.137.107-1.835-.115-.423-.134-.966-.314-1.662-.614-2.926-1.263-4.837-4.209-4.983-4.404-.146-.195-1.19-1.584-1.19-3.022 0-1.438.753-2.145 1.02-2.437.268-.293.584-.366.779-.366.195 0 .39.002.56.01.18.009.421-.068.659.503.244.585.829 2.023.902 2.169.073.146.122.317.024.512-.097.195-.146.317-.292.488-.146.17-.307.38-.439.512-.146.146-.299.305-.128.598.17.292.757 1.249 1.625 2.023 1.117.996 2.059 1.305 2.351 1.451.292.146.463.122.634-.073.17-.195.731-.853.926-1.146.195-.292.39-.244.658-.146.268.097 1.706.805 1.998.951.292.146.487.219.56.341.073.122.073.707-.171 1.395z"/>
+              </svg>
+              <span>Conversar no WhatsApp (15) 98811-8435</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé Completo -->
+  <footer class="bg-[#F8FAFC] border-t border-slate-200 py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-8 border-b border-slate-200">
+        <!-- Logotipo SVG Rodapé -->
+        <div class="flex items-center gap-3">
+          <svg class="w-10 h-10 shrink-0" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="4" y="7" width="34" height="26" rx="5" fill="#FFFFFF" stroke="#0A2540" stroke-width="3"/>
+            <line x1="4" y1="15" x2="38" y2="15" stroke="#0A2540" stroke-width="2.5"/>
+            <circle cx="9.5" cy="11" r="1.5" fill="#00D4FF"/>
+            <circle cx="14.5" cy="11" r="1.5" fill="#0A2540"/>
+            <circle cx="19.5" cy="11" r="1.5" fill="#94A3B8"/>
+            <path d="M25 21L42 28.5L34.5 31.8L38.5 39.5L34.5 41.5L30.5 33.8L25 39V21Z" fill="#00D4FF" stroke="#0A2540" stroke-width="2.5" stroke-linejoin="round"/>
+          </svg>
+          <div class="flex flex-col leading-none">
+            <span class="text-lg font-extrabold tracking-tight text-[#0A2540]">CyberPlace</span>
+            <span class="text-[11px] font-semibold tracking-wider uppercase text-slate-500 mt-0.5">Sites e Posicionamento Digital</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 text-sm text-slate-600">
+          <div>
+            <span class="font-semibold text-[#0A2540]">Atendimento:</span> Tatuí, SP e região
+          </div>
+          <div>
+            <span class="font-semibold text-[#0A2540]">WhatsApp:</span>
+            <a href="https://wa.me/5515988118435?text=Ol%C3%A1!%20Vi%20o%20site%20da%20CyberPlace%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-[#0A2540] font-bold hover:underline">
+              (15) 98811-8435
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <p>© <span id="current-year"></span> CyberPlace - Sites e Posicionamento Digital. Todos os direitos reservados.</p>
+        <div class="flex items-center gap-5">
+          <a href="#solucoes" class="hover:text-[#0A2540]">Serviços</a>
+          <a href="#portfolio" class="hover:text-[#0A2540]">Portfólio</a>
+          <a href="#como-funciona" class="hover:text-[#0A2540]">Como Funciona</a>
+          <a href="#duvidas" class="hover:text-[#0A2540]">Dúvidas</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal de Visualização de Detalhes do Portfólio -->
+  <div id="portfolio-modal" class="hidden fixed inset-0 z-50 bg-[#0A2540]/60 backdrop-blur-xs flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="bg-white border border-slate-200 rounded-2xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative">
+      <button id="close-modal-btn" type="button" aria-label="Fechar janela" class="absolute top-4 right-4 p-2 rounded-xl text-slate-500 hover:bg-slate-100 hover:text-[#0A2540]">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+
+      <span class="inline-block px-3 py-1 rounded-full bg-[#00D4FF]/20 text-[#0A2540] text-xs font-bold mb-3">
+        Estrutura do Projeto
+      </span>
+      <h3 id="modal-title" class="text-xl font-extrabold text-[#0A2540]"></h3>
+      <p id="modal-desc" class="text-sm text-slate-600 mt-3 leading-relaxed"></p>
+
+      <div class="mt-5 bg-[#F8FAFC] border border-slate-200 rounded-xl p-4">
+        <div class="text-xs font-bold uppercase tracking-wider text-[#0A2540] mb-2.5">Pontos principais desta página</div>
+        <ul id="modal-highlights" class="space-y-2 text-sm text-slate-700"></ul>
+      </div>
+
+      <div class="mt-6 flex flex-col sm:flex-row gap-3">
+        <a id="modal-wa-link"
+           href="#"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex-1 inline-flex items-center justify-center gap-2 bg-[#00D4FF] hover:bg-[#00B8DF] text-[#0A2540] font-bold text-sm px-5 py-3.5 rounded-xl transition-colors">
+          <span>Pedir uma página nesse estilo</span>
+        </a>
+        <button id="close-modal-footer-btn" type="button" class="px-5 py-3.5 rounded-xl border border-slate-300 text-sm font-semibold text-slate-700 hover:bg-slate-50">
+          Fechar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botão Flutuante Discreto do WhatsApp -->
+  <a href="https://wa.me/5515988118435?text=Ol%C3%A1!%20Vi%20o%20site%20da%20CyberPlace%20e%20quero%20falar%20sobre%20um%20site%20ou%20landing%20page."
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Falar no WhatsApp com a CyberPlace"
+     class="fixed bottom-5 right-5 z-40 inline-flex items-center gap-2.5 bg-[#0A2540] hover:bg-[#133557] text-white border border-[#00D4FF]/40 px-4 py-3.5 rounded-full shadow-lg transition-transform hover:scale-105">
+    <span class="w-2.5 h-2.5 rounded-full bg-[#00D4FF] animate-pulse"></span>
+    <svg class="w-5 h-5 text-[#00D4FF] shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.758.459 3.475 1.331 4.988L2 22l5.188-1.359a9.93 9.93 0 004.843 1.258h.004c5.515 0 9.968-4.453 9.968-9.969 0-2.663-1.037-5.167-2.92-7.05A9.903 9.903 0 0012.031 2zm5.803 14.28c-.244.688-1.417 1.315-1.964 1.397-.502.075-1.137.107-1.835-.115-.423-.134-.966-.314-1.662-.614-2.926-1.263-4.837-4.209-4.983-4.404-.146-.195-1.19-1.584-1.19-3.022 0-1.438.753-2.145 1.02-2.437.268-.293.584-.366.779-.366.195 0 .39.002.56.01.18.009.421-.068.659.503.244.585.829 2.023.902 2.169.073.146.122.317.024.512-.097.195-.146.317-.292.488-.146.17-.307.38-.439.512-.146.146-.299.305-.128.598.17.292.757 1.249 1.625 2.023 1.117.996 2.059 1.305 2.351 1.451.292.146.463.122.634-.073.17-.195.731-.853.926-1.146.195-.292.39-.244.658-.146.268.097 1.706.805 1.998.951.292.146.487.219.56.341.073.122.073.707-.171 1.395z"/>
+    </svg>
+    <span class="text-xs sm:text-sm font-bold pr-1">WhatsApp</span>
+  </a>
+
+  <script>
+    // Atualiza ano automaticamente no rodapé
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Menu mobile
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Fecha menu mobile ao clicar em um link
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // Acordeão interativo do FAQ
+    const faqButtons = document.querySelectorAll('.faq-btn');
+    faqButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const content = btn.nextElementSibling;
+        const icon = btn.querySelector('.faq-icon');
+        const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+
+        // Fecha outros itens abertos
+        faqButtons.forEach(otherBtn => {
+          if (otherBtn !== btn) {
+            otherBtn.setAttribute('aria-expanded', 'false');
+            otherBtn.nextElementSibling.classList.add('hidden');
+            otherBtn.querySelector('.faq-icon').classList.remove('rotate-180');
+          }
+        });
+
+        btn.setAttribute('aria-expanded', String(!isExpanded));
+        content.classList.toggle('hidden');
+        icon.classList.toggle('rotate-180');
+      });
+    });
+
+    // Modal de detalhes dos projetos do portfólio
+    const modal = document.getElementById('portfolio-modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalDesc = document.getElementById('modal-desc');
+    const modalHighlights = document.getElementById('modal-highlights');
+    const modalWaLink = document.getElementById('modal-wa-link');
+    const closeModalBtn = document.getElementById('close-modal-btn');
+    const closeModalFooterBtn = document.getElementById('close-modal-footer-btn');
+
+    document.querySelectorAll('.preview-trigger').forEach(trigger => {
+      trigger.addEventListener('click', () => {
+        modalTitle.textContent = trigger.dataset.previewTitle;
+        modalDesc.textContent = trigger.dataset.previewDesc;
+        modalWaLink.href = trigger.dataset.previewWa;
+
+        modalHighlights.innerHTML = '';
+        const items = trigger.dataset.previewHighlights.split('|');
+        items.forEach(item => {
+          const li = document.createElement('li');
+          li.className = 'flex items-start gap-2';
+          li.innerHTML = `<span class="text-[#00B8DF] font-bold">✓</span><span>${item}</span>`;
+          modalHighlights.appendChild(li);
+        });
+
+        modal.classList.remove('hidden');
+      });
+    });
+
+    function closeModal() {
+      modal.classList.add('hidden');
+    }
+
+    closeModalBtn.addEventListener('click', closeModal);
+    closeModalFooterBtn.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+        closeModal();
+      }
+    });
+  </script>
+</body>
+</html>
